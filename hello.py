@@ -12,6 +12,15 @@ def index_get():
     }
     return F.render_template('index.html', **content, dd = pp)
 
+@app.route('/2', methods=['GET'])
+def index2_get():
+    
+    return F.render_template('index2.html')
+
+@app.route('/schedule', methods=['GET'])
+def schedule_get():
+    return F.render_template('schedule.html')
+
 @app.route('/guest', methods=['GET'])
 def quest_get():
     pp = 5
