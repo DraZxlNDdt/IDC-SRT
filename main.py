@@ -17,7 +17,7 @@ def do():
   session = Session()
   if session:
     results = session.query(face_info).filter(face_info.id==1).delete()
-    session.add(face_info(id=1,  name="Jerry", face="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606971993676&di=29a19f76c32e92a32d7249ebc500e9a0&imgtype=0&src=http%3A%2F%2Fimg2.mtime.cn%2Fup%2F175%2F2710175%2F91fcc117-cf9d-4920-ad67-253defe588d0_o.jpg", introduction="An orange mouse"))
+    session.add(face_info(id=1,  name="Jerry", face="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.mp.sohu.com%2Fq_mini%2Cc_zoom%2Cw_640%2Fupload%2F20170731%2F4c99710550954d8a8f65dce6bbe27370_th.jpg&refer=http%3A%2F%2Fimg.mp.sohu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1613006046&t=0816d820afd6f50e15f4d806963ce10c", introduction="An orange mouse"))
     results = session.query(face_info).filter(face_info.id==2).delete()
     session.add(face_info(id=2,  name="Tom", face="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606972096128&di=ce04cf178e4d14b7cebd371a8756b493&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F94o3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F6a63f6246b600c339761c419104c510fd8f9a1c2.jpg", introduction="A blue cat"))
     # results = session.query(face_info).fliter(face_info.id==3).delete()
