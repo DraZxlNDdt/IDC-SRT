@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDC ROBOCON 2020 OFFICIAL WEBSITE</title>
+<link href="../static/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+<center>
+	<table class="top">
+			<tr>
+				<td><a href="https://www.tsinghua.edu.cn/" target="_blank"><img src="../static/img/1.jpg" alt="tsinghua" width="320px"></a></td>
+				<td><a href="http://www.idc-robocon.org/"><img src="../static/img/22.png" alt="robocon" width="260px"></a></td>
+				<td><a href="https://www.tsinghua.edu.cn/" target="_blank"><img src="../static/img/3.jpg" alt="tsinghua" width="320px"></a></td>
+			</tr>
+	</table>
+	<table class="navigator">
+		<tr>
+		  <td ><a href="/" >►Top</a></td>
+		  <td ><a href="about" >►About IDC Robocon</a></td>
+		  <td ><a href="contest" >►Comptetion</a></td>
+          <td ><a href="team" >►Team</a></td>
+          <td ><a href="schedule">►Match schedule</a></td>
+		  <td ><a href="weblink" >►Links</a></td>
+		</tr>
+	</table>
+	<div style="height:10px"></div>
+<!--	中部主体-->
+	<div style="width: 900px;height: 1200px;display: flex;flex-direction:row;">
+<!--		中左边部分-->
+		<div style="width: 700px; display: flex;flex-direction: column;">
+			<p style="font-size: 30px;color: rgb(69, 135, 197);font-family:Consolas">► 成绩汇总</p>
+			<div style="height: 20px"></div>
+			<div style="width: 690px;height: 900px;background: rgb(120, 165, 218);border: black solid 3px">
+				<p style="font-size: 27px;font-family:Consolas">► 比赛情况</p>
+				<p style="font-family:Consolas">2020.12.2 ~ 2020.12.22</p>
+                <table style="border:3px solid black;border-collapse: collapse;">
+                    <style>
+                        .plan{
+                            border: solid black 2px;
+                            padding: 5px;
+                        }
+                    </style>
+                    <tr>
+                        <th class="plan">Games</th>
+                        <th class="plan">Team 1</th>
+                        <th class="plan">Team 1 grade</th>
+                        <th class="plan">Team 2</th>
+                        <th class="plan">Team 2 grade</th>
+                    </tr>
+                    <tr>
+                        <td class="plan">1</td>
+                        <td class="plan">red</td>
+                        <td class="plan">{{g1[0]}}</td>
+                        <td class="plan">blue</td>
+                        <td class="plan">{{g2[0]}}</td>
+                    </tr>
+                    <tr>
+                        <td class="plan">2</td>
+                        <td class="plan">yellow</td>
+                        <td class="plan">{{g1[1]}}</td>
+                        <td class="plan">green</td>
+                        <td class="plan">{{g2[1]}}</td>
+                    </tr>
+                    <tr>
+                        <td class="plan">3</td>
+                        <td class="plan">red</td>
+                        <td class="plan">{{g1[2]}}</td>
+                        <td class="plan">yellow</td>
+                        <td class="plan">{{g2[2]}}</td>
+                    </tr>
+                    <tr>
+                        <td class="plan">4</td>
+                        <td class="plan">blue</td>
+                        <td class="plan">{{g1[3]}}</td>
+                        <td class="plan">green</td>
+                        <td class="plan">{{g2[3]}}</td>
+                    </tr>
+                    <tr>
+                        <td class="plan">5</td>
+                        <td class="plan">red</td>
+                        <td class="plan">{{g1[4]}}</td>
+                        <td class="plan">green</td>
+                        <td class="plan">{{g2[4]}}</td>
+                    </tr>
+                    <tr>
+                        <td class="plan">6</td>
+                        <td class="plan">blue</td>
+                        <td class="plan">{{g1[5]}}</td>
+                        <td class="plan">yellow</td>
+                        <td class="plan">{{g2[5]}}</td>
+                    </tr>
+                </table>
+                <br>
+                <p style="font-size: 27px;font-family:Consolas">► 排名情况</p>
+                <table style="border:3px solid black;border-collapse: collapse;">
+                    <style>
+                        .plan{
+                            border: solid black 2px;
+                            padding: 5px;
+                        }
+                    </style>
+                    <tr>
+                        <th class="plan">rank</th>
+                        <th class="plan">Team</th>
+                        <th class="plan">grade</th>
+                    </tr>
+                    <tr>
+                        <td class="plan">1</td>
+                        <td class="plan">{{n[0]}}</td>
+                        <td class="plan">{{r[0]}}</td>
+
+                    </tr>
+                    <tr>
+                        <td class="plan">2</td>
+                        <td class="plan">{{n[1]}}</td>
+                        <td class="plan">{{r[1]}}</td>
+
+                    </tr>
+                    <tr>
+                        <td class="plan">3</td>
+                        <td class="plan">{{n[2]}}</td>
+                        <td class="plan">{{r[2]}}</td>
+
+                    </tr>
+                    <tr>
+                        <td class="plan">4</td>
+                        <td class="plan">{{n[3]}}</td>
+                        <td class="plan">{{r[3]}}</td>
+
+                    </tr>
+                </table>
+                <p style="font-size: 27px;font-family:Consolas">► 总决赛</p>
+                <table style="border:3px solid black;border-collapse: collapse;">
+                    <style>
+                        .plan{
+                            border: solid black 2px;
+                            padding: 5px;
+                        }
+                    </style>
+                    <tr>
+                        <th class="plan">Team 1</th>
+                        <th class="plan">Team 2</th>
+                        <th class="plan">Winner</th>
+                    </tr>
+                    <tr>
+                        <td class="plan">{{final1}}</td>
+                        <td class="plan">{{final2}}</td>
+                        <td class="plan">{{winner}}</td>
+                    </tr>
+                </table>
+			</div>
+			
+		</div>
+<!--		中间主体的右侧部分-->
+		<div style="width: 200px; display: flex;flex-direction: column;">
+			<a href="https://www.tsinghua.edu.cn/" target="_blank"><img alt="Tsinghua" src="../static/img/ts.jpg" style="width: 120px"></a>
+			<a href="https://www.titech.ac.jp/" target="_blank"><img alt="东京工业大学" src="../static/img/titech.png" style="width: 170px"></a>
+			<a href="https://www.mit.edu/" target="_blank"><img alt="MIT" src="../static/img/MIT.jpg" style="width: 160px"></a>
+			<a href="#" target="_blank"><img alt="#"></a>
+			<a href="#" target="_blank"><img alt="#"></a>
+		</div>
+	</div>
+	<div>All contents and all other img copyright © Tsinghua University 2021 the webmaster of this website.</div>
+</center>
+</div>
+</body>
+</html>
